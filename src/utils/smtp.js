@@ -9,8 +9,8 @@ module.exports.send = (to, data, callback) => {
         secure: false,
         port: 587,
         auth: {
-            user: "vk40010@gmail.com",
-            pass: "vikas@12345"
+            user: "use any gmail email",
+            pass: "password"
         }
     })
     
