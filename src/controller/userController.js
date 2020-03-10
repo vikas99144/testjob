@@ -29,7 +29,7 @@ module.exports.signup = async (req, res) => {
                     if (callback == "false") {
                         Response.response(500, 'Internal error', res);
                     } else {
-                        Response.response(200, 'User created successfully.', res);
+                        Response.response(200, 'Please verify email address', res);
                     }
                 });
 
